@@ -59,7 +59,7 @@ public class GameOverManager : MonoBehaviour
 
             if (restartTimer >= restartDelay)
             {
-                Application.LoadLevel(0);
+                Application.LoadLevel(3);
             }
         }
 
